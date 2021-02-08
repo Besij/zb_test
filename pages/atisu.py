@@ -17,4 +17,4 @@ class MainPage(WebPage):
     ATI_SEARCH_BUTTON = WebElement(xpath='/html/body/div[2]/div[2]/main/div[2]/div[2]/div[2]/div[2]/div[1]/button')
     ATI_SEARCH_RESULTS = ManyWebElements(xpath='//div[@name="search-results"]')
     ATI_AVAILABLE_CARS = ManyWebElements(css_selector='button[icon="[object Object]"]')
-    ATI_POPUP = WebElement(xpath='//*[contains(text(), "Вход в АТИ"]')
+    ATI_POPUP = WebElement(xpath='//h1[@class="ati-core-popup-header"]')
