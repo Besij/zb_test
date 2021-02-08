@@ -46,7 +46,6 @@ def test_check_search_results(web_browser):
     assert page.ATI_SEARCH_RESULTS.is_presented()
 
 
-@pytest.mark.skip(reason="In development")
 def test_check_popup_registration(web_browser):
     """ При нажатии в карточке 'Показать контакты' появляется попап регистрации. """
 
